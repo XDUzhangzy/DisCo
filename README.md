@@ -4,6 +4,34 @@ This repository provides a cleaned and modular implementation of DisCo-iFormer f
 
 The codebase is organized around a simple training pipeline with separate modules for the model, dataset handling, training engine, and experiment entrypoint.
 
+## Paper
+Our work is published in the International Journal of Neural Systems:
+
+Zhang, Z., Zheng, Y., Guo, K., Liang, J., & Dong, M. (2026). A Few-Layer Multilayer Perceptron is Worth Attention for EEG Classification in Rapid Serial Visual Presentation Task. International Journal of Neural Systems, *36*(09), 2650030.
+DOI: 10.1142/S0129065726500309
+PMID: 41958205
+
+Please cite our paper if you find this code useful in your research:
+
+@article{doi:10.1142/S0129065726500309,
+  author = {Zhang, Ziyuan and Zheng, Yang and Guo, Kaitai and Liang, Jimin and Dong, Minghao},
+  title = {A Few-Layer Multilayer Perceptron is Worth Attention for EEG Classification in Rapid Serial Visual Presentation Task},
+  journal = {International Journal of Neural Systems},
+  volume = {36},
+  number = {09},
+  pages = {2650030},
+  year = {2026},
+  doi = {10.1142/S0129065726500309},
+  note = {PMID: 41958205},
+  url = {https://doi.org/10.1142/S0129065726500309}
+}
+
+## Dataset
+
+The dataset used in our experiments is available at:
+https://doi.org/10.6084/m9.figshare.33404251
+If you use this dataset, please cite it accordingly.
+
 ## Repository Structure
 
 - `model.py`: core DisCo-iFormer architecture
