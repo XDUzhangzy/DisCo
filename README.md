@@ -1,6 +1,6 @@
-# DisCo-iFormer
+# DisCo-Former
 
-This repository provides a cleaned and modular implementation of DisCo-iFormer for EEG decoding experiments.
+This repository provides a cleaned and modular implementation of DisCo-Former for EEG decoding experiments.
 
 The codebase is organized around a simple training pipeline with separate modules for the model, dataset handling, training engine, and experiment entrypoint.
 
@@ -37,7 +37,7 @@ If you use this dataset, please cite it accordingly.
 
 ## Repository Structure
 
-- `model.py`: core DisCo-iFormer architecture
+- `model.py`: core DisCo-Former architecture
 - `dataset.py`: dataset loading, preprocessing, and fold construction
 - `engine.py`: loss functions, training loop, validation, and evaluation
 - `train.py`: command-line entrypoint for training experiments
